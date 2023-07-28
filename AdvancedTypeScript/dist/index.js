@@ -1,2 +1,9 @@
 "use strict";
-console.log("Typescript is running still Now");
+class User {
+    constructor(email, name) {
+        this.email = email;
+        this.name = name;
+    }
+}
+const obj1 = new User("u@u.com", "ujjal");
+console.log(obj1);
