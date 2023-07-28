@@ -1,1 +1,1 @@
-console.log("Typescript is Runnig still Now");
+console.log("Typescript is running still Now");
