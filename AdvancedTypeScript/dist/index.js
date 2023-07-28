@@ -23,5 +23,14 @@ class User {
         this._courseCount = courseNum;
     }
 }
+class subUser extends User {
+    constructor() {
+        super(...arguments);
+        this.isFamily = true;
+    }
+    changeCourseCount() {
+        this._courseCount;
+    }
+}
 const obj1 = new User("u@u.com", "ujjal");
 console.log(obj1);
