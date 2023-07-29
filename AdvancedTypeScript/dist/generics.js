@@ -10,7 +10,8 @@ function identityTwo(val) {
 function identityThree(val) {
     return val;
 }
-identityThree("3");
+const res = identityThree(3 + "3");
+console.log(res);
 function identityFour(val) {
     return val;
 }

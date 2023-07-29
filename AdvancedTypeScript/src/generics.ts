@@ -13,8 +13,8 @@ function identityThree<Type>(val: Type): Type {
   return val;
 }
 
-identityThree("3");
-
+const res = identityThree(3 + "3");
+console.log(res);
 function identityFour<T>(val: T): T {
   return val;
 }
