@@ -1,8 +1,5 @@
 function Even(num: number): boolean {
-  if (num % 2 === 0) {
-    return true;
-  }
-  return false;
+  return num % 2 === 0;
 }
 
-console.log(Even(2));
+console.log(Even(5));
