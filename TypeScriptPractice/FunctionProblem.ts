@@ -16,3 +16,10 @@ async function FetchData() {
 }
 
 FetchData();
+
+const isPalindorme = (str: string): any => {
+  const strSplit = str.split("").reverse().join();
+  console.log(strSplit);
+};
+
+isPalindorme("12321");
